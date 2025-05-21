@@ -1,3 +1,4 @@
+        document.addEventListener('DOMContentLoaded', function() {
 async function setDiscordPfp() {
     const apiUrl = 'https://discord-lookup-api-one-coral.vercel.app/v1/user/1108071513493614592';
     const imgElement = document.getElementById('pfp');
