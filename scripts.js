@@ -26,7 +26,8 @@ async function setDiscordPfp() {
 
     }
 }
-setDiscordPfp();
+            setDiscordPfp();
+        });
 document.querySelectorAll('.social-icons a').forEach(icon => {
     icon.addEventListener('mouseenter', () => {
         icon.classList.add('animated');
